@@ -14,7 +14,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: aliceblue;
 }
 
 .cabecalho{
@@ -32,6 +32,18 @@ body{
     align-items: center;
 }
 
+.div-logo{
+    display: flex;
+    align-items: center;
+}
+
+.div-logo a{
+    font-size: 4vh;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .div-logo img{
     width:25vh;
 }
@@ -43,12 +55,13 @@ body{
 }
 
 .div-perfil a{
-    margin:0 3vh;
+    margin:0 2vh;
     padding: 1.5vh;
     font-weight: bold;
 }
 
 .link-login{
+    border:0.5vh solid white;
     border-radius: 1.5vh;
     background-color: white;
     text-decoration: none;
@@ -60,6 +73,8 @@ body{
 }
 
 .link-cadastro{
+    border:0.5vh solid white;
+    border-radius: 1.5vh;
     text-decoration: none;
     color:white;
 }
