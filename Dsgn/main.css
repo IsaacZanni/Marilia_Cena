@@ -86,3 +86,21 @@ body{
 .div-perfil img{
     height: 10vh;
 }
+
+.barra-navegacao ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.barra-navegacao li{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding:4vh;
+}
+
+.barra-navegacao a{
+    text-decoration: none;
+    color: var(--marromclaro);
+}
