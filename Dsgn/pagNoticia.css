@@ -1,0 +1,39 @@
+:root{
+    --bege:#e5ded3;
+    --marromclaro:#9a4624;
+    --verde:#3b6040;
+    --cinza:#665e4d;
+    --dourado:#99722e;
+}
+
+.sec-pagina{
+    padding: 4vh;
+}
+
+.div-noticia{
+    border-radius: 2vh;
+    background-color: white;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-noticia h1{
+    font-size: 4vh;
+    color:var(--verde);
+    text-align: justify;
+}
+
+.div-noticia img{
+    margin: 4vh;
+    height: 50vh;
+}
+
+.div-noticia h2{
+    color: var(--verde);
+}
+
+.div-noticia p{
+    margin: 2vh 0vh;
+}
