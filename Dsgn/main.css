@@ -19,7 +19,7 @@ body{
 }
 
 .cabecalho{
-    background-color: var(--dourado);
+    background-color: var(--verde);
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +66,7 @@ body{
     border-radius: 1.5vh;
     background-color: white;
     text-decoration: none;
-    color: var(--dourado);
+    color: var(--verde);
 }
 
 .link-cadastro{
@@ -81,22 +81,33 @@ body{
 }
 
 .barra-navegacao ul{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    list-style-type: none;
+}
+
+.barra-navegacao li a{
+    display: block;
+    padding:4vh;
+    color: var(--verde);
+    text-align: center;
+    font-size: 3vh;
+    text-decoration: none;
 }
 
 .barra-navegacao li{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding:4vh;
+    width: 20%;
 }
 
-.barra-navegacao a{
-    font-size: 3vh;
-    text-decoration: none;
-    color: var(--marromclaro);
+.barra-navegacao li a:hover{
+    background-color: var(--verde);
+    color: white;
+}
+
+.link-ativo li a{
+    background-color: gray;
+    color: white;
 }
 
 .sec-noticias{
