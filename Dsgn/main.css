@@ -15,7 +15,7 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-color: #F5F5DC;
 }
 
 .cabecalho{
@@ -101,7 +101,7 @@ body{
 }
 
 .barra-navegacao li a:hover{
-    background-color: var(--verde);
+    background-color: grey;
     color: white;
 }
 
@@ -135,7 +135,7 @@ body{
     align-items: center;
 }
 
-.div-imagem{
+.div-noticia-imagem{
     border-radius: 1vh;
     display: flex;
     align-items: center;
@@ -145,7 +145,7 @@ body{
     height: 30vh;
 }
 
-.div-imagem img{
+.div-noticia-imagem img{
     height: 100%;
 }
 
