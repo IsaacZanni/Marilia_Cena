@@ -8,6 +8,8 @@
 
 .sec-pagina{
     padding: 4vh;
+    display: flex;
+    justify-content:center;
 }
 
 .div-noticia{
@@ -19,15 +21,23 @@
     align-items: center;
 }
 
+.div-noticia h1, .div-noticia img, .div-noticia h2, .div-noticia p{
+    width: 100vh;
+}
+
+.div-noticia h1,h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .div-noticia h1{
     font-size: 4vh;
     color:var(--verde);
-    text-align: justify;
+    text-align: center;
 }
 
 .div-noticia img{
-    margin: 4vh;
-    height: 50vh;
+    margin: 5vh;
 }
 
 .div-noticia h2{
