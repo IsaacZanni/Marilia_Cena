@@ -39,6 +39,7 @@ body{
 }
 
 .div-logo a{
+    text-transform: uppercase;
     font-size: 4vh;
     color: white;
     font-weight: bold;
@@ -53,6 +54,9 @@ body{
     margin-right: 5vh;
     display: flex;
     align-items: center;
+    text-transform: uppercase;
+    font-size: 2vh;
+    letter-spacing: 1px;
 }
 
 .div-perfil a{
@@ -91,6 +95,7 @@ body{
     display: block;
     padding:4vh;
     color: var(--verde);
+    text-transform: lowercase;
     text-align: center;
     font-size: 3vh;
     text-decoration: none;
