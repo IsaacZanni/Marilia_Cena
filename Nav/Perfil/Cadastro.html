@@ -11,27 +11,33 @@
         <h1>Cadastrar usuário</h1>
         <div class="div-form">
             <label for="">Digite o seu nome:</label>
-            <input type="text">
+            <input type="text" class="input-text" name="nome-pessoa" id="nome-pessoa">
         </div>
         <div class="div-form">
             <label for="">Digite o email:</label>
-            <input type="text">
+            <input type="text" class="input-text" name="email-pessoa" id="email-pessoa">
         </div>
         <div class="div-form">
             <label for="">Que tipo de usuário você é</label>
-            <input type="radio" name="" id="">
-            <input type="radio" name="" id="">
+            <div class="div-form-radio">
+                <input type="radio" name="tipo-pessoa" id="leitor">
+                <label for="masculino">Leitor</label>
+            </div>
+            <div class="div-form-radio">
+                <input type="radio" name="tipo-pessoa" id="editor">
+                <label for="feminino">Editor</label>
+            </div>
         </div>
         <div class="div-form">
             <label for="">Crie uma senha:</label>
-            <input type="password" name="" id="">
+            <input type="password" class="input-text" name="priSenha-pessoa" id="priSenha-pessoa">
         </div>
         <div class="div-form">
             <label for="">Repita a senha:</label>
-            <input type="password" name="" id="">
+            <input type="password" class="input-text" name="segSenha-pessoa" id="segSenha-pessoa">
         </div>
         <div class="div-form">
-            <input type="submit">
+            <input type="submit" value="Cadastrar" class="input-submit"id="cadastrarPessoa">
         </div>
     </form>
 </body>
