@@ -163,3 +163,38 @@ body{
     display: none;
     margin-top: 5vh;
 }
+
+.rodape{
+    background-color: gray;
+    padding: 4vh;
+}
+
+.rodape p, a{
+    color: white;
+    font-size: 3vh;
+}
+
+.rodape p{
+    text-align: center;
+}
+
+.rodape ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape li{
+    list-style-type: none;
+    margin:2vh 0;
+}
+
+.rodape img{
+    height: 5vh;
+    margin-right: 1vh;
+}
+
+.rodape a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
